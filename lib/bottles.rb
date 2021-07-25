@@ -1,6 +1,6 @@
 class Bottles
   def verse n
-    return <<-VERSE
+    <<-VERSE
 #{(bottles n).capitalize} of beer on the wall, #{bottles n} of beer.
 #{action n}, #{bottles (n-1)} of beer on the wall.
     VERSE
